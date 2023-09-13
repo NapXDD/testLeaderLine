@@ -1,0 +1,41 @@
+#start {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-color: #9ee7ea;
+}
+
+#end {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-color: #9ee7ea;
+}
+
+.scrollAbleBox {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 398px;
+  height: 120px;
+  border: 1px solid #ccc;
+  overflow-x: scroll;
+}
+
+.scrollAbleBox > div {
+  width: 700px;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
+.start-line-1 {
+  left: 300px;
+}
+
+.end-line-1 {
+  left: 200px;
+}
+
+svg.leader-line path {
+  pointer-events: all;
+}
